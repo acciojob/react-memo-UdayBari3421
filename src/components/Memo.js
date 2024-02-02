@@ -19,12 +19,14 @@ const Memo = () => {
           type="text"
           onChange={(e) => setValue(e.target.value)}
         />
-        <button type="submit">Add Skill</button>
+        <button type="submit" id="skill-btn">
+          Add Skill
+        </button>
       </form>
       <ul>
         {data &&
           data.map((item, ind) => {
-            return <li key={"key" + ind}>{item}</li>;
+            return item && <li key={"key" + ind}>{item}</li>;
           })}
       </ul>
     </div>

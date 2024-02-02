@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 const Counter = () => {
-  const [data, setData] = useState(0);
+  const [count, setCount] = useState(0);
   return (
     <div className="counter">
       <div>
-        <p>Count:{data}</p>
-        <button id="incr-cnt" onClick={() => setData(data + 1)}>
-          +
+        <p>Count:{count}</p>
+        <button id="incr-cnt" onClick={() => setCount(count + 1)}>
+          {count > 0 ? count : "+"}
         </button>
       </div>
       <div>

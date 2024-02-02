@@ -8,7 +8,11 @@ const Todo = () => {
       <div>
         {todo &&
           todo.map((item, index) => {
-            return <div key={index}>{item}</div>;
+            return (
+              <div id={"todo-" + index} key={"todo-" + index}>
+                {item}
+              </div>
+            );
           })}
       </div>
       <button
