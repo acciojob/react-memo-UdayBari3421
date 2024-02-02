@@ -23,7 +23,7 @@ const Memo = () => {
           Add Skill
         </button>
       </form>
-      <ul>
+      <ul className="item-jumbotron">
         {data &&
           data.map((item, ind) => {
             return item && <li key={"key" + ind}>{item}</li>;
