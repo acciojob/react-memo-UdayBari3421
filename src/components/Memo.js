@@ -14,7 +14,11 @@ const Memo = () => {
         <h2>React.memo</h2>
       </div>
       <form onSubmit={submitHandle}>
-        <input type="text" onChange={(e) => setValue(e.target.value)} />
+        <input
+          id="skill-input"
+          type="text"
+          onChange={(e) => setValue(e.target.value)}
+        />
         <button type="submit">Add Skill</button>
       </form>
       <ul>

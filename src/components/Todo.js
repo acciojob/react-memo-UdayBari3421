@@ -11,7 +11,10 @@ const Todo = () => {
             return <div key={index}>{item}</div>;
           })}
       </div>
-      <button onClick={() => setTodo([...todo, <p>New Todo</p>])}>
+      <button
+        id="add-todo-btn"
+        onClick={() => setTodo([...todo, <p>New Todo</p>])}
+      >
         Add Todo
       </button>
       <hr />

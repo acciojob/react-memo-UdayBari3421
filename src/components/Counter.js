@@ -6,7 +6,9 @@ const Counter = () => {
     <div className="counter">
       <div>
         <p>Count:{data}</p>
-        <button onClick={() => setData(data + 1)}>+</button>
+        <button id="incr-cnt" onClick={() => setData(data + 1)}>
+          +
+        </button>
       </div>
       <div>
         <h1>Expensive Calculation</h1>
