@@ -11,7 +11,7 @@ const Memo = () => {
     <div>
       <hr />
       <div id="calc">
-        <h2>React.memo</h2>
+        <h2>1000000000</h2>
       </div>
       <form onSubmit={submitHandle}>
         <input
