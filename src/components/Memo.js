@@ -10,7 +10,7 @@ const Memo = () => {
   return (
     <div>
       <hr />
-      <div>
+      <div id="calc">
         <h2>React.memo</h2>
       </div>
       <form onSubmit={submitHandle}>
@@ -23,7 +23,7 @@ const Memo = () => {
           Add Skill
         </button>
       </form>
-      <ul className="item-jumbotron">
+      <ul id="item-jumbotron">
         {data &&
           data.map((item, ind) => {
             return item && <li key={"key" + ind}>{item}</li>;
