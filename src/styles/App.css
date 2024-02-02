@@ -1,12 +1,8 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+.counter {
+    display: flex;
+    flex-direction: column;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.counter div:first-child {
+    display: flex;
 }
