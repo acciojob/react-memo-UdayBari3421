@@ -1,16 +1,2 @@
-import React from "react";
-import Counter from "./Counter";
-import Todo from "./Todo";
-import Memo from "./Memo";
-const App = () => {
-  return (
-    <div id="main">
-      <h1>React.useMemo</h1>
-      <Todo />
-      <Counter />
-      <Memo />
-    </div>
-  );
-};
+<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
 
-export default App;
