@@ -1,8 +1,0 @@
-.counter {
-    display: flex;
-    flex-direction: column;
-}
-
-.counter div:first-child {
-    display: flex;
-}
